@@ -17,7 +17,7 @@
 }
 .calculator
 {
-    background:orangered;
+    background:black;
     padding: 20px;
     border-radius: 10px;
     border: 2px solid white;
@@ -31,12 +31,17 @@
     height: 60px;
     border-radius: 10px;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px  rgba(0, 0, 0, 0.2);
-    background: white;
+    background:rgba(255, 255, 255, 0.1) ;
     font-size: 20px;
-    color:black;
+    color:white;
     cursor: pointer;
     margin: 10px;
     border: 2px solid black;
+    transition: 0.3s ease;
+}
+.calculator form input:hover
+{
+    background: rgba(98, 95, 95, 0.678) ;
 }
 form .display
 {
